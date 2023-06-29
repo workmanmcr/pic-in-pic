@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title>Shape Tracker</title>
+  <title>Picture in Picture</title>
+  <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-  <h3>Enter three lengths to determine if they can make a triangle.</h3>
-  <form id="triangle-checker-form">
-    <label for="length1">Enter a number:</label>
-    <input id="length1" type="number">
-    <label for="length2">Enter a number:</label>
-    <input id="length2" type="number">
-    <label for="length3">Enter a number:</label>
-    <input id="length3" type="number">
-    <button type="submit">Submit</button>
-  </form>
-  <div id="response"></div>
+<video id="video" controls height="360" width="640" hidden></video>
+ 
+<div class="button-container">
+  <button id="but">START</button>
+</div>
+<script src="index.js"></script>
 </body>
 </html>
